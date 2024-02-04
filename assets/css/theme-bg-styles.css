@@ -1,0 +1,144 @@
+/*============================================
+=            Style Straight Theme            =
+============================================*/
+.courusel-container {
+  padding: 140px 0 80px;
+  background: url(../img/banner-img.jpg) no-repeat center;
+  background-size: cover;
+  margin-bottom: 90px;
+  position: relative;
+}
+.courusel-container:before {
+  bottom: -67px;
+}
+.philosophy-block {
+  margin-bottom: 149px;
+}
+.iphone-block {
+  background: url(../img/iphone-background-straight.png) no-repeat center;
+  background-size: cover;
+  padding: 200px 0 196px 0;
+}
+.our-team {
+  padding: 130px 0 20px 0;
+}
+.price-plan-block {
+  padding: 72px 0 105px 0;
+  margin-bottom: 185px;
+  background: url(../img/background-price-block-straight.png) no-repeat center;
+  background-size: cover;
+}
+footer {
+  padding-top: 105px;
+  margin-top: 115px;
+  min-height: 100%;
+  background: url(../img/bg-footer-straight.png) no-repeat center;
+  background-size: cover;
+}
+.first-section {
+  max-height: 635px;
+  margin-bottom: 140px;
+  background: url(../img/about-page-bg.jpg) no-repeat;
+  background-size: cover !important;
+  position: relative;
+  overflow-x: hidden;
+}
+.first-section.not-images {
+  padding: 134px 0 200px;
+  background: url(../img/inner-page-bg.jpg) no-repeat;
+  background-size: cover;
+}
+.text-about {
+  margin-bottom: 83px;
+}
+.table-currency {
+  margin-top: -357px;
+  margin-bottom: 182px;
+}
+.about-working {
+  padding: 128px 0 89px 0;
+  margin-bottom: 65px;
+  background: url(../img/background-about-straight.png) no-repeat center;
+}
+.team-slider-text {
+  margin-top: 0;
+}
+
+.contact-block {
+  margin-top: -255px;
+  margin-bottom: 160px;
+}
+.questions-page .first-section {
+  margin-bottom: 177px;
+  max-height: 610px;
+  background: url(../img/inner-page-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.calculator {
+  margin: -253px 0 0;
+}
+
+@media only screen and (min-width: 1441px) {
+  .iphone-block {
+    padding: 275px 0 358px 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .philosophy-block {
+    margin-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .courusel-container {
+    padding: 110px 0 120px;
+  }
+  .philosophy-block {
+    margin-bottom: 40px;
+  }
+  .iphone-block {
+    padding: 148px 0 210px 0;
+  }
+  .our-team {
+    padding: 50px 0 70px 0;
+  }
+  .table-currency {
+    margin-bottom: 0;
+  }
+  .about-working {
+    padding: 80px 0 150px 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer {
+    padding-top: 60px;
+    margin-top: 60px;
+  }
+  .courusel-container {
+    padding: 110px 0 100px;
+  }
+  .iphone-block {
+    padding: 115px 0 180px 0;
+  }
+  .price-plan-block {
+    padding: 70px 0 60px 0;
+    margin-bottom: 60px;
+  }
+  .first-section.not-images {
+    padding: 134px 0 170px;
+  }
+  .calculator {
+    margin: -253px 0 60px 0;
+  }
+  .about-working {
+    padding: 60px 0 10px 0;
+  }
+  .login-page footer,
+  .sign-up footer {
+    padding-top: 60px;
+  }
+  .coming-soon .text {
+    padding: 160px 0 160px 0;
+  }
+}
+/*=====  End of Style Straight Theme  ======*/
